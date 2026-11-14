@@ -1,16 +1,17 @@
 """food-picture-01 entry: copy the bundled food photograph to the output dir.
 
-The image is a photorealistic medium-rare ribeye steak, sliced open to show
-its pink juicy interior, glistening with melted butter, rosemary and roasted
-garlic on a dark slate board. The program is fully deterministic: it copies
-the exact bytes of entry.png sitting next to this script, so repeated runs
-always produce identical output.
+The image is a photorealistic bowl of tonkotsu ramen, chopsticks lifting a
+tangle of glistening noodles high above the bowl, steam catching warm window
+light, a halved soft-boiled egg with a jammy orange yolk, charred chashu,
+chili-oil swirl and spring onions in a dark ceramic bowl. The program is
+fully deterministic: it copies the exact bytes of entry.png sitting next to
+this script, so repeated runs always produce identical output.
 """
 
-# The steak was photographed (generated) fresh for this entry: thick-cut
-# ribeye, seared crust, rosemary and roasted garlic, butter pooling on slate.
-# No network, no randomness — a plain byte copy, so the judge sees the same
-# picture on every run.
+# The ramen was photographed (generated) fresh for this entry: glossy broth,
+# noodle lift, jammy egg, chili oil, nori and chashu. No network, no
+# randomness — a plain byte copy, so the judge sees the same picture on
+# every run.
 import os
 import shutil
 
